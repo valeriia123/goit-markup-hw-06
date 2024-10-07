@@ -15,6 +15,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
     <!-- HEADER -->
@@ -45,7 +46,7 @@
             <section class="section-effective">
                 <div class="container">
                     <h1 class="main-title">Effective Solutions for Your Business</h1>
-                    <button type="button" class="button-order-service">Order Service</button>
+                    <button type="button" class="button-order-service" data-modal-open>Order Service</button>
                 </div>
             </section>
             
@@ -449,9 +450,10 @@
 
         </div>
     </footer>
-    <div class="modal-overlay">
+
+    <div class="modal-overlay" data-modal>
         <div class="modal">
-            <button class="modal-close-btn" type="button">
+            <button class="modal-close-btn" type="button" data-modal-close>
                 <svg class="modal-close-icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close-black"></use>
                 </svg>
@@ -508,5 +510,6 @@
             </form>
         </div>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>

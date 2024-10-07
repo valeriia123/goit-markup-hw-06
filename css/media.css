@@ -1,0 +1,264 @@
+/* =============== MEDIA 320PX ================ */
+@media screen and (min-width: 320px) {
+
+    .container {
+        max-width: 320px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/* --------SECTION EFFECTIVE------- */
+
+
+.button-order-service {
+    display: block;
+    margin-top: 72px;
+}
+
+.section-effective {
+    padding-bottom: 72px;
+    padding-top: 72px;
+}
+.main-title {
+        font-size: 36px;
+        line-height: 40px;
+        width: 216px;
+        margin: auto;
+}
+
+/* --------/ECTION EFFECTIVE------- */
+
+/* --------SECTION INFORMATION------- */
+    .section-paddings {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .list-information {
+        display: flex;
+        flex-direction: column;
+        row-gap: 72px;
+    }
+
+    .conteiner-information-icon {
+        display: none;
+        
+    }
+
+    .title-information {
+        margin-bottom: 8px;
+        text-align: center;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+    }
+
+    .paragraph-information {
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+/* --------/SECTION INFORMATION------- */
+
+
+/* --------OUR TEAM------- */
+    .list-our-team {
+        display: flex;
+        flex-direction: column;
+        row-gap: 72px;
+    }
+    .item-our-team {
+        width: 264px;
+    }
+/* --------/OUR TEAM------- */
+
+
+/* --------PORTFOLIO------- */
+    .list-portfolio {
+        flex-direction: column;
+    }
+    .item-portfolio {
+        width: 288px;
+    }
+/* --------/PORTFOLIO------- */
+
+
+/* --------FOOTER------- */
+
+/* --------/FOOTER------- */
+
+
+}
+
+/* =============== /MEDIA 320PX ================ */
+
+
+
+                                  /* =============== MEDIA 768PX ================ */
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+    }
+
+
+/* --------SECTION EFFECTIVE------- */
+
+
+.button-order-service {
+    display: block;
+}
+
+.section-effective {
+    padding-bottom: 112px;
+    padding-top: 112px;
+}
+
+.main-title {
+    width: 496px;
+        font-size: 56px;
+        line-height: 1.071;
+}
+
+/* --------/ECTION EFFECTIVE------- */
+
+/* --------SECTION INFORMATION------- */
+    .list-information {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+    }
+
+    .item-information {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .title-information {
+        text-align: left;
+    }
+/* --------/SECTION INFORMATION------- */
+
+
+/* --------SECTION EFFECTIVE------- */
+    .list-our-team {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+}
+/* --------/SECTION EFFECTIVE------- */
+
+
+/* --------PORTFOLIO------- */
+.list-portfolio {
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 72px;
+}
+
+.item-portfolio {
+    width: 356px;
+}
+/* --------/PORTFOLIO------- */
+
+
+/* --------FOOTER------- */
+
+/* --------/FOOTER------- */
+
+}
+                                  /* =============== /MEDIA 768PX ================ */
+
+
+
+
+                                                                    /* =============== MEDIA 1158PX ================ */
+@media screen and (min-width: 1158px) {
+
+    .container {
+        max-width: 1158px;
+    }
+
+
+        /* --------SECTION EFFECTIVE------- */
+    
+    
+        .button-order-service {
+            margin-top: 48px;
+        }
+    
+/* --------/ECTION EFFECTIVE------- */
+
+
+/* --------SECTION INFORMATION------- */
+    .section-paddings {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .page-navigation {
+        display: flex;
+        align-items: center;
+    }
+
+    .item-information {
+        width: calc((100% - 72px) / 4);
+    }
+    
+    .conteiner-information-icon {
+        width: 264px;
+        height: 112px;
+        border-radius: 4px;
+        border: 1px solid #8E8F99;
+        background-color: #F4F4FD;
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+    .title-information {
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .paragraph-information {
+        font-weight: 400;
+    }
+/* --------/SECTION INFORMATION------- */
+
+
+/* --------SECTION EFFECTIVE------- */
+
+    .list-our-team {
+        flex-wrap: nowrap;
+}
+/* --------/SECTION EFFECTIVE------- */
+
+
+/* --------PORTFOLIO------- */
+    .list-portfolio {
+        gap: 48px 24px;
+}
+ 
+    .item-portfolio {
+        width: calc((100% - 48px) / 3);
+        position: relative;
+}
+/* --------/PORTFOLIO------- */
+
+
+/* --------FOOTER------- */
+
+/* --------/FOOTER------- */
+}
+                                                                    /* =============== /MEDIA 1158PX ================ */
