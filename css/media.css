@@ -9,50 +9,43 @@
         margin-right: auto;
     }
 
-/* --------SECTION EFFECTIVE------- */
+
+    /* --------SECTION EFFECTIVE------- */
 
 
-.button-order-service {
-    display: block;
-    margin-top: 72px;
-}
+    .button-order-service {
+        display: block;
+        margin-top: 72px;
+    }
 
-.section-effective {
-    padding-bottom: 72px;
-    padding-top: 72px;
-}
-.main-title {
+    .section-effective {
+        padding-bottom: 72px;
+        padding-top: 72px;
+    }
+
+    .main-title {
         font-size: 36px;
         line-height: 40px;
         width: 216px;
         margin: auto;
-}
+    }
 
-/* --------/ECTION EFFECTIVE------- */
+    /* --------/ECTION EFFECTIVE------- */
 
-/* --------SECTION INFORMATION------- */
+    /* --------SECTION INFORMATION------- */
     .section-paddings {
         padding-top: 96px;
         padding-bottom: 96px;
     }
 
     .list-information {
-        display: flex;
         flex-direction: column;
         row-gap: 72px;
     }
 
     .conteiner-information-icon {
         display: none;
-        
-    }
 
-    .title-information {
-        margin-bottom: 8px;
-        text-align: center;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
     }
 
     .paragraph-information {
@@ -60,34 +53,177 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
-/* --------/SECTION INFORMATION------- */
+
+    .item-information {
+        /* width: calc((100% - 24px) / 2); */
+        width: 288px;
+    }
+
+    .title-information {
+        text-align: center;
+        margin-bottom: 8px;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+    /* --------/SECTION INFORMATION------- */
 
 
-/* --------OUR TEAM------- */
+    /* --------OUR TEAM------- */
+
+    .our-team {
+        background-color: #F4F4FD;
+    }
+
     .list-our-team {
         display: flex;
         flex-direction: column;
-        row-gap: 72px;
+        gap: 72px;
+        /* margin: auto;
+        width: 264px; */
     }
+
     .item-our-team {
         width: 264px;
     }
-/* --------/OUR TEAM------- */
+
+    /* --------/OUR TEAM------- */
 
 
-/* --------PORTFOLIO------- */
+    /* --------PORTFOLIO------- */
     .list-portfolio {
         flex-direction: column;
     }
+
     .item-portfolio {
         width: 288px;
     }
-/* --------/PORTFOLIO------- */
+
+    /* --------/PORTFOLIO------- */
 
 
-/* --------FOOTER------- */
+    /* --------FOOTER------- */
 
-/* --------/FOOTER------- */
+    .page-footer {
+        background-color: #2E2F42;
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .page-footer .logo-studio {
+        color: #f4f4fd;
+    }
+
+    .logo-link-footer {
+        color: #4d5ae5;
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-icons {
+        margin-top: 72px;
+    }
+
+    .footer-p {
+        color: #F4F4FD;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-top: 16px;
+    }
+
+    .circle-container-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .circle-icon-footer {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #4d5ae5;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .footer-input-btn {
+        margin-top: 72px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-last-p {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-input {
+        width: 100%;
+        background-color: transparent;
+        height: 40px;
+        opacity: 0.3;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border: 1px solid #FFF;
+        padding: 8px 8px 8px 16px;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        padding-left: 16px;
+        color: #ffffff;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .footer-btn-input {
+        display: flex;
+        padding: 8px 24px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background-color: #4D5AE5;
+        min-width: 165px;
+        height: 40px;
+        letter-spacing: 0.04em;
+        border: none;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #ffffff;
+        cursor: pointer;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 16px;
+        margin-bottom: 0;
+    }
+
+    .footer-telegram-svg {
+        margin-left: 16px;
+    }
+
+    /* --------/FOOTER------- */
 
 
 }
@@ -96,7 +232,7 @@
 
 
 
-                                  /* =============== MEDIA 768PX ================ */
+/* =============== MEDIA 768PX ================ */
 
 @media screen and (min-width: 768px) {
 
@@ -105,27 +241,27 @@
     }
 
 
-/* --------SECTION EFFECTIVE------- */
+    /* --------SECTION EFFECTIVE------- */
 
 
-.button-order-service {
-    display: block;
-}
+    .button-order-service {
+        display: block;
+    }
 
-.section-effective {
-    padding-bottom: 112px;
-    padding-top: 112px;
-}
+    .section-effective {
+        padding-bottom: 112px;
+        padding-top: 112px;
+    }
 
-.main-title {
-    width: 496px;
+    .main-title {
+        width: 496px;
         font-size: 56px;
         line-height: 1.071;
-}
+    }
 
-/* --------/ECTION EFFECTIVE------- */
+    /* --------/ECTION EFFECTIVE------- */
 
-/* --------SECTION INFORMATION------- */
+    /* --------SECTION INFORMATION------- */
     .list-information {
         flex-direction: row;
         flex-wrap: wrap;
@@ -139,42 +275,97 @@
     .title-information {
         text-align: left;
     }
-/* --------/SECTION INFORMATION------- */
+
+    /* --------/SECTION INFORMATION------- */
 
 
-/* --------SECTION EFFECTIVE------- */
+    /* --------OUR TEAM------- */
+    .list-our-team {
+        column-gap: 24px;
+        row-gap: 64px;
+    }
+
+    /* --------/OUR TEAM------- */
+
+
+    /* --------SECTION EFFECTIVE------- */
     .list-our-team {
         flex-wrap: wrap;
         justify-content: center;
         flex-direction: row;
+    }
+
+    /* --------/SECTION EFFECTIVE------- */
+
+
+    /* --------PORTFOLIO------- */
+    .list-portfolio {
+        flex-wrap: wrap;
+        flex-direction: row;
+        row-gap: 72px;
+    }
+
+    .item-portfolio {
+        width: 356px;
+    }
+
+    /* --------/PORTFOLIO------- */
+
+
+    /* --------FOOTER------- */
+
+    .footer-logo-p-conteiner {
+        align-items: start;
+        width: 528px;
+    }
+
+    .footer-p {
+        width: 264px;
+    }
+
+    .logo-icons-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        height: 112px;
+        justify-content: center;
+    }
+
+    .footer-icons {
+        margin: 0;
+    }
+
+    .logo-link-footer {
+        justify-content: flex-start;
+    }
+
+    .footer-last-p {
+        justify-content: flex-start;
+    }
+
+    .footer-input {
+        width: 264px;
+    }
+
+    .footer-btn-input {
+        margin: 0;
+    }
+
+    .footer-form {
+        display: flex;
+        gap: 24px;
+    }
+
+    /* --------/FOOTER------- */
+
 }
-/* --------/SECTION EFFECTIVE------- */
 
-
-/* --------PORTFOLIO------- */
-.list-portfolio {
-    flex-wrap: wrap;
-    flex-direction: row;
-    row-gap: 72px;
-}
-
-.item-portfolio {
-    width: 356px;
-}
-/* --------/PORTFOLIO------- */
-
-
-/* --------FOOTER------- */
-
-/* --------/FOOTER------- */
-
-}
-                                  /* =============== /MEDIA 768PX ================ */
+/* =============== /MEDIA 768PX ================ */
 
 
 
 
-                                                                    /* =============== MEDIA 1158PX ================ */
+/* =============== MEDIA 1158PX ================ */
 @media screen and (min-width: 1158px) {
 
     .container {
@@ -182,17 +373,17 @@
     }
 
 
-        /* --------SECTION EFFECTIVE------- */
-    
-    
-        .button-order-service {
-            margin-top: 48px;
-        }
-    
-/* --------/ECTION EFFECTIVE------- */
+    /* --------SECTION EFFECTIVE------- */
 
 
-/* --------SECTION INFORMATION------- */
+    .button-order-service {
+        margin-top: 48px;
+    }
+
+    /* --------/ECTION EFFECTIVE------- */
+
+
+    /* --------SECTION INFORMATION------- */
     .section-paddings {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -211,8 +402,14 @@
 
     .item-information {
         width: calc((100% - 72px) / 4);
+
     }
-    
+
+    .infornation-svg {
+        width: 64px;
+        height: 64px;
+    }
+
     .conteiner-information-icon {
         width: 264px;
         height: 112px;
@@ -223,42 +420,78 @@
         display: flex;
         justify-content: center;
         align-items: center;
-}
+    }
 
     .title-information {
-        font-style: normal;
         font-size: 20px;
         font-weight: 500;
     }
 
     .paragraph-information {
         font-weight: 400;
+        width: 264px;
     }
-/* --------/SECTION INFORMATION------- */
+
+    /* --------/SECTION INFORMATION------- */
 
 
-/* --------SECTION EFFECTIVE------- */
-
+    /* --------SECTION EFFECTIVE------- */
     .list-our-team {
         flex-wrap: nowrap;
-}
-/* --------/SECTION EFFECTIVE------- */
+    }
+
+    /* --------/SECTION EFFECTIVE------- */
 
 
-/* --------PORTFOLIO------- */
+    /* --------PORTFOLIO------- */
     .list-portfolio {
         gap: 48px 24px;
-}
- 
+    }
+
     .item-portfolio {
         width: calc((100% - 48px) / 3);
         position: relative;
+    }
+
+    /* --------/PORTFOLIO------- */
+
+
+    /* --------FOOTER------- */
+    .footer-logo-p-conteiner {
+        width: 1158px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo-paragraph {
+        width: 264px;
+    }
+
+    .logo-icons-footer {
+        gap: 120px;
+    }
+
+    .footer-input-btn {
+        margin-top: 0;
+    }
+
+    .footer-icons {
+        margin-right: 80px;
+    }
+
+    .footer-form {
+        gap: 24px;
+    }
+
+    .footer-btn-input {
+        margin: 0;
+        color: #ffffff;
+    }
+
+    .footer-input::placeholder {
+        color: #ffffff;
+    }
+    /* --------/FOOTER------- */
 }
-/* --------/PORTFOLIO------- */
 
-
-/* --------FOOTER------- */
-
-/* --------/FOOTER------- */
-}
-                                                                    /* =============== /MEDIA 1158PX ================ */
+/* =============== /MEDIA 1158PX ================ */
