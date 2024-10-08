@@ -23,35 +23,92 @@
     <!-- HEADER -->
     
     <header class="page-header">
-        <div class="container header-nav">
-        <div class="logo-heroicon">
+    <div class="container header-nav">
+        <nav class="page-navigation">
             <a href="./index.html" class="logo-link">Web<span class="logo-studio">Studio</span></a>
-            <button class="heroicon-mobile-btn" type="button" data-navigation-open>
-                <svg class="heroicon-mobile-svg" width="24" height="24">
-                    <use href="./images/icons.svg#icon-heroicons-mobile"></use>
+            
+            <ul class="list-header">
+                <li class="item-header"><a href="./index.html" class="item-link active">Studio</a></li>
+                <li class="item-header"><a href="" class="item-link">Portfolio</a></li>
+                <li class="item-header"><a href="" class="item-link">Contacts</a></li>
+            </ul>
+        </nav>
+        
+        <address class="main-address">
+            <ul class="list-address">
+                <li class="item-address"><a href="mailto:info@devstudio.com" class="link-header-contacts">info@devstudio.com</a></li>
+                <li class="item-address"><a href="tel:+110001111111" class="link-header-contacts">+11 (000) 111-11-11</a></li>
+            </ul>
+        </address>
+        <button class="heroicon-mobile-btn" type="button" data-navigation-open>
+            <svg class="heroicon-mobile-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-heroicons-mobile"></use>
+            </svg>
+        </button>
+    </div>
+
+        <div class="mobile-menu" data-navigation>
+            <button class="modal-close-btn" type="button" data-navigation-close>
+                <svg class="modal-close-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black"></use>
                 </svg>
             </button>
-        </div>
-        <div class="navigation-address">
-            <nav class="page-navigation">
-                <ul class="list-header">
-                    <li class="item-header"><a href="./index.html" class="item-link active">Studio</a></li>
-                    <li class="item-header"><a href="" class="item-link">Portfolio</a></li>
-                    <li class="item-header"><a href="" class="item-link">Contacts</a></li>
-                </ul>
-            </nav>
+                <nav class="mobile-navigation">
+                    <ul class="list-header-mobile">
+                        <li class="item-header-mobile"><a href="./index.html" class="item-link-mobile active">Studio</a></li>
+                        <li class="item-header-mobile"><a href="" class="item-link-mobile">Portfolio</a></li>
+                        <li class="item-header-mobile"><a href="" class="item-link-mobile">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="address-list-icon-mob">
+                <address class="main-address-mobile">
+                    <ul class="list-address-mobile">
+                        <li class="item-address-mobile"><a class="link-header-contacts-mobile" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="item-address-mobile"><a class="link-header-contacts-mobile" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+            
 
-            <address class="main-address">
-                <ul class="list-address">
-                    <li class="item-address"><a href="mailto:info@devstudio.com"
-                            class="link-header-contacts">info@devstudio.com</a></li>
-                    <li class="item-address"><a href="tel:+110001111111" class="link-header-contacts">+11 (000)
-                            111-11-11</a></li>
+                <ul class="list-icon-header-mobile">
+                    <li class="item-icon-footer">
+                        <a class="circle-icon-footer" href="#">
+                            <svg width="24" height="24" class="svg-icons">
+                                <use href="./images/icons.svg#icon-instagram-2">
+
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item-icon-footer">
+                        <a class="circle-icon-footer" href="#">
+                            <svg width="24" height="24" class="svg-icons">
+                                <use href="./images/icons.svg#icon-twitter-1">
+
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item-icon-footer">
+                        <a class="circle-icon-footer" href="#">
+                            <svg width="24" height="24" class="svg-icons">
+                                <use href="./images/icons.svg#icon-facebook-1">
+
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item-icon-footer">
+                        <a class="circle-icon-footer" href="#">
+                            <svg width="24" height="24" class="svg-icons">
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            </address>
-        </div>
+            </div>
         </div>
     </header>
+
 
 
     <main>
@@ -554,6 +611,7 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile.js"></script>
 </body>
 
 </html>
