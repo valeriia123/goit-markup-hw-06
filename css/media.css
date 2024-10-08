@@ -10,6 +10,28 @@
     }
 
 
+/* --------HEADER------- */
+.heroicon-mobile-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.header-nav {
+    height: 56px;
+}
+
+.logo-heroicon {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+.navigation-address {
+    display: none;
+}
+
+/* --------/HEADER------- */
+
+
     /* --------SECTION EFFECTIVE------- */
 
 
@@ -226,11 +248,29 @@
     /* --------/FOOTER------- */
 
 
+    /* --------MODAL------- */
+    .modal {
+        width: 288px;
+        min-height: 623px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .review-form-comments {
+        width: 256px;
+    }
+    /* --------/MODAL------- */
+
 }
 
 /* =============== /MEDIA 320PX ================ */
 
-
+@media screen and (min-resolution: 192dpi) {
+    .section-effective {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/dark-bg-squoosh-2x.jpg);
+    }
+}
 
 /* =============== MEDIA 768PX ================ */
 
@@ -241,8 +281,26 @@
     }
 
 
-    /* --------SECTION EFFECTIVE------- */
+    /* --------HEADER------- */
+.heroicon-mobile-btn {
+    display: none;
+}
 
+.logo-link {
+    margin-right: 76px;
+}
+  
+.navigation-address {
+    display: flex;
+}
+
+.header-nav {
+    height: 72px;
+}
+    /* --------/HEADER------- */
+
+
+    /* --------SECTION EFFECTIVE------- */
 
     .button-order-service {
         display: block;
@@ -257,6 +315,12 @@
         width: 496px;
         font-size: 56px;
         line-height: 1.071;
+    }
+
+    .section-effective {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/dark-bg-tablet-squoosh.jpg);
     }
 
     /* --------/ECTION EFFECTIVE------- */
@@ -358,11 +422,30 @@
 
     /* --------/FOOTER------- */
 
+        /* --------MODAL------- */
+        .modal {
+            width: 408px;
+            min-height: 584px;
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+    
+        .review-form-comments {
+            width: 100%;
+        }
+        /* --------/MODAL------- */
+    
+
 }
 
 /* =============== /MEDIA 768PX ================ */
 
-
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .section-effective {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/dark-bg-tablet-2x-squoosh.jpg);
+    }
+}
 
 
 /* =============== MEDIA 1158PX ================ */
@@ -373,12 +456,21 @@
     }
 
 
+/* --------HEADER------- */
+
+.navigation-address {
+display: flex;
+}
+ /* --------/HEADER------- */
+
+
     /* --------SECTION EFFECTIVE------- */
 
 
     .button-order-service {
         margin-top: 48px;
     }
+    
 
     /* --------/ECTION EFFECTIVE------- */
 
@@ -440,6 +532,10 @@
         flex-wrap: nowrap;
     }
 
+    .section-effective {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),            rgba(46, 47, 66, 0.7)),
+        url(../images/dark-bg-desktop-squoosh.jpg);
+    }
     /* --------/SECTION EFFECTIVE------- */
 
 

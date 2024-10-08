@@ -21,11 +21,19 @@
 
 <body>
     <!-- HEADER -->
+    
     <header class="page-header">
         <div class="container header-nav">
+        <div class="logo-heroicon">
+            <a href="./index.html" class="logo-link">Web<span class="logo-studio">Studio</span></a>
+            <button class="heroicon-mobile-btn" type="button" data-navigation-open>
+                <svg class="heroicon-mobile-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-heroicons-mobile"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="navigation-address">
             <nav class="page-navigation">
-                <a href="./index.html" class="logo-link">Web<span class="logo-studio">Studio</span></a>
-
                 <ul class="list-header">
                     <li class="item-header"><a href="./index.html" class="item-link active">Studio</a></li>
                     <li class="item-header"><a href="" class="item-link">Portfolio</a></li>
@@ -42,7 +50,9 @@
                 </ul>
             </address>
         </div>
+        </div>
     </header>
+
 
     <main>
 
@@ -50,7 +60,7 @@
         <section class="section-effective">
             <div class="container">
                 <h1 class="main-title">Effective Solutions for Your Business</h1>
-                <button type="button" class="button-order-service">Order Service</button>
+                <button type="button" class="button-order-service" data-modal-open>Order Service</button>
             </div>
         </section>
 
@@ -114,7 +124,9 @@
             <div class="container">
                 <h2 class="title-our-team">Our Team</h2>
                 <ul class="list-our-team">
-                    <li class="item-our-team"><img src="./images/img1-squoosh.jpg" alt="Mark Guerrero" width="264">
+                    <li class="item-our-team"><img 
+                        srcset="./images/img1@2x-squoosh.jpg 2x"
+                        src="./images/img1-squoosh.jpg" alt="Mark Guerrero" width="264">
                         <div class="item-name-paragraph">
                             <h3 class="name-our-team">Mark Guerrero</h3>
                             <p class="description-our-team">Product Designer</p>
@@ -123,7 +135,6 @@
                                     <a class="circle-icon" href="#">
                                         <svg width="16" height="16" class="svg-icons">
                                             <use href="./images/icons.svg#icon-instagram-2">
-
                                             </use>
                                         </svg>
                                     </a>
@@ -159,7 +170,9 @@
                         </div>
                     </li>
                     <li class="item-our-team">
-                        <img src="./images/img2-squoosh.jpg" alt="Tom Ford" width="264">
+                        <img 
+                        srcset="./images/img2@2x-squoosh.jpg 2x"
+                        src="./images/img2-squoosh.jpg" alt="Tom Ford" width="264">
                         <div class="item-name-paragraph">
                             <h3 class="name-our-team">Tom Ford</h3>
                             <p class="description-our-team">Frontend Developer</p>
@@ -204,7 +217,9 @@
                         </div>
                     </li>
                     <li class="item-our-team">
-                        <img src="./images/img3-squoosh.jpg" alt="Camila Garcia" width="264">
+                        <img 
+                        srcset="./images/img3@2x-squoosh.jpg 2x"
+                        src="./images/img3-squoosh.jpg" alt="Camila Garcia" width="264">
                         <div class="item-name-paragraph">
                             <h3 class="name-our-team">Camila Garcia</h3>
                             <p class="description-our-team">Marketing</p>
@@ -248,7 +263,9 @@
                         </div>
                     </li>
                     <li class="item-our-team">
-                        <img src="./images/img4-squoosh.jpg" alt="Daniel Wilson" width="264">
+                        <img 
+                        srcset="./images/img4@2x-squoosh.jpg 2x"
+                        src="./images/img4-squoosh.jpg" alt="Daniel Wilson" width="264">
                         <div class="item-name-paragraph">
                             <h3 class="name-our-team">Daniel Wilson</h3>
                             <p class="description-our-team">UI Designer</p>
@@ -257,7 +274,6 @@
                                     <a class="circle-icon" href="#">
                                         <svg width="16" height="16" class="svg-icons">
                                             <use href="./images/icons.svg#icon-instagram-2">
-
                                             </use>
                                         </svg>
                                     </a>
@@ -266,7 +282,6 @@
                                     <a class="circle-icon" href="#">
                                         <svg width="16" height="16" class="svg-icons">
                                             <use href="./images/icons.svg#icon-twitter-1">
-
                                             </use>
                                         </svg>
                                     </a>
@@ -275,7 +290,6 @@
                                     <a class="circle-icon" href="#">
                                         <svg width="16" height="16" class="svg-icons">
                                             <use href="./images/icons.svg#icon-facebook-1">
-
                                             </use>
                                         </svg>
                                     </a>
@@ -303,7 +317,9 @@
                 <ul class="list-portfolio">
                     <li class="item-portfolio">
                         <div class="overlay-portfolio">
-                            <img src="./images/portfolio1-squoosh.jpg" alt="Taxi Service" width="360">
+                            <img 
+                            srcset="./images/portfolio1@2x-squoosh.jpg 2x"
+                            src="./images/portfolio1-squoosh.jpg" alt="Taxi Service" width="360">
                             <p class="overlay-paragraph">14 Stylish and User-Friendly App Design Concepts · Task Manager
                                 App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                                 Cloud Storage App</p>
@@ -318,7 +334,9 @@
 
                     <li class="item-portfolio">
                         <div class="overlay-portfolio">
-                            <img src="./images/portfolio2-squoosh.jpg" alt="Taxi Service" width="360">
+                            <img 
+                            srcset="./images/portfolio2@2x-squoosh.jpg 2x"
+                            src="./images/portfolio2-squoosh.jpg" alt="Taxi Service" width="360">
                             <p class="overlay-paragraph">14 Stylish and User-Friendly App Design Concepts · Task Manager
                                 App · Calorie
                                 Tracker App · Exotic Fruit Ecommerce App ·
@@ -334,7 +352,9 @@
 
                     <li class="item-portfolio">
                         <div class="overlay-portfolio">
-                            <img src="./images/portfolio3-squoosh.jpg" alt="Taxi Service" width="360">
+                            <img 
+                            srcset="./images/portfolio3@2x-squoosh.jpg 2x"
+                            src="./images/portfolio3-squoosh.jpg" alt="Taxi Service" width="360">
                             <p class="overlay-paragraph">14 Stylish and User-Friendly App Design Concepts · Task Manager
                                 App · Calorie
                                 Tracker App · Exotic Fruit Ecommerce App ·
@@ -350,7 +370,9 @@
 
                     <li class="item-portfolio">
                         <div class="overlay-portfolio">
-                            <img src="./images/portfolio4-squoosh.jpg" alt="Taxi Service" width="360">
+                            <img 
+                            srcset="./images/portfolio4@2x-squoosh.jpg 2x"
+                            src="./images/portfolio4-squoosh.jpg" alt="Taxi Service" width="360">
                             <p class="overlay-paragraph">14 Stylish and User-Friendly App Design Concepts · Task Manager
                                 App · Calorie
                                 Tracker App · Exotic Fruit Ecommerce App ·
@@ -366,7 +388,9 @@
 
                     <li class="item-portfolio">
                         <div class="overlay-portfolio">
-                            <img src="./images/portfolio5-squoosh.jpg" alt="Taxi Service" width="360">
+                            <img 
+                            srcset="./images/portfolio5@2x-squoosh.jpg 2x"
+                            src="./images/portfolio5-squoosh.jpg" alt="Taxi Service" width="360">
                             <p class="overlay-paragraph">14 Stylish and User-Friendly App Design Concepts · Task Manager
                                 App · Calorie
                                 Tracker App · Exotic Fruit Ecommerce App ·
@@ -382,7 +406,9 @@
 
                     <li class="item-portfolio">
                         <div class="overlay-portfolio">
-                            <img src="./images/portfolio6-squoosh.jpg" alt="Taxi Service" width="360">
+                            <img 
+                            srcset="./images/portfolio6@2x-squoosh.jpg 2x"
+                            src="./images/portfolio6-squoosh.jpg" alt="Taxi Service" width="360">
                             <p class="overlay-paragraph">14 Stylish and User-Friendly App Design Concepts · Task Manager
                                 App · Calorie
                                 Tracker App · Exotic Fruit Ecommerce App ·
@@ -466,9 +492,9 @@
 
         </div>
     </footer>
-    <div class="modal-overlay">
+    <div class="modal-overlay" data-modal>
         <div class="modal">
-            <button class="modal-close-btn" type="button">
+            <button class="modal-close-btn" type="button" data-modal-close>
                 <svg class="modal-close-icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close-black"></use>
                 </svg>
@@ -527,6 +553,7 @@
             </form>
         </div>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
